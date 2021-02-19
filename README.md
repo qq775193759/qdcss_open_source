@@ -1,5 +1,5 @@
 # Fast Computation of Content-Sensitive Superpixels and Supervoxels Using Q-Distances
-This repository contains the source code for the paper [Fast Computation of Content-Sensitive Superpixels and Supervoxels Using Q-Distances](https://openaccess.thecvf.com/content_ICCV_2019/html/Ye_Fast_Computation_of_Content-Sensitive_Superpixels_and_Supervoxels_Using_Q-Distances_ICCV_2019_paper.html) by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm).
+This repository contains the source code for the ICCV 2019 paper [Fast Computation of Content-Sensitive Superpixels and Supervoxels Using Q-Distances](https://openaccess.thecvf.com/content_ICCV_2019/html/Ye_Fast_Computation_of_Content-Sensitive_Superpixels_and_Supervoxels_Using_Q-Distances_ICCV_2019_paper.html) by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm).
 
 
 ## Running Environment
@@ -21,7 +21,7 @@ iter_max: the max number of interation, which should be integer. 5-20 recommende
 
 Example: 
 ```
-qd-CSS_rgb.exe examples_input examples_output 300 10
+$qd-CSS_rgb.exe examples_input examples_output 300 10
 ```
 
 ### Superpixels for RGBD images
@@ -37,7 +37,7 @@ iter_max: the max number of interation, which should be integer. 5-20 recommende
 
 Example: 
 ```
-qd-CSS_rgbd.exe images depth output 300 10
+$qd-CSS_rgbd.exe images depth output 300 10
 ```
 
 ### Supervoxels for RGB videos
@@ -52,7 +52,7 @@ iter_max: the max number of interation, which should be integer. 5-20 recommende
 
 Example: 
 ```
-qd-CSS_sv.exe sv_input sv_output 500 10
+$qd-CSS_sv.exe sv_input sv_output 500 10
 ```
 
 ## Additional notes
