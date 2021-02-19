@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 		cout<<"USAGE:  *.exe  rgb_image_fold  depth_image_fold  output_fold  number_of_superpixels  iter_max"<<endl;
 		return 0;
 	}
-	superPixel_rgbg_iter_mt(argv[1], argv[2], argv[3], atoi(argv[4]), atoi(argv[5]));
+	superPixel_rgbd_iter_mt(argv[1], argv[2], argv[3], atoi(argv[4]), atoi(argv[5]));
 	*/
 
 
