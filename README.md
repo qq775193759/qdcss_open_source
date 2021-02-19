@@ -7,7 +7,21 @@ The developing environment we used is Microsoft Visual C++ 2012, and we have tes
 
 
 ## subprogram
-We define many functions for different tasks in MainProcess.h, and the corresponding input parameters are defined in main.cpp. 
+We define many functions for different tasks in ```MainProcess.h```, and the corresponding input parameters are defined in ```main.cpp```. Users can comment and uncomment the code to compile different versions for different tasks.
+
+### Superpixels for RGB images
+You can see the function ```superPixel_rgb_iter_mt```, The command is as follows：
+```
+qd-CSS_rgb.exe  input_folder  output_folder  number_of_superpixels  iter_max
+```
+Example: 
+```
+qd-CSS_rgb.exe examples_input examples_output 300 10
+```
+
+### Superpixels for RGBD images
+
+### Supervoxels for RGB images
 
 ## Additional notes
 
