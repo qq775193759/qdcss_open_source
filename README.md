@@ -10,7 +10,7 @@ The developing environment we used is Microsoft Visual C++ 2012, and we have tes
 We define many functions for different tasks in ```MainProcess.h```, and the corresponding input parameters are defined in ```main.cpp```. Users can comment and uncomment the code to compile different versions for different tasks.
 
 ### Superpixels for RGB images
-You can see the function ```superPixel_rgb_iter_mt```, The command is as follows：
+You can see the function ```superPixel_rgb_iter_mt```, The command is as follows (rename the executable file as ```qd-CSS_rgb.exe```):
 ```
 qd-CSS_rgb.exe  input_folder  output_folder  number_of_superpixels  iter_max
 ```
@@ -21,11 +21,11 @@ iter_max: the max number of interation, which should be integer. 5-20 recommende
 
 Example: 
 ```
-$qd-CSS_rgb.exe examples_input examples_output 300 10
+qd-CSS_rgb.exe examples_input examples_output 300 10
 ```
 
 ### Superpixels for RGBD images
-You can see the function ```superPixel_rgbd_iter_mt```, The command is as follows：
+You can see the function ```superPixel_rgbd_iter_mt```, The command is as follows (rename the executable file as ```qd-CSS_rgbd.exe```):
 ```
 qd-CSS_rgbd.exe  rgb_image_folder  depth_image_folder  output_folder  number_of_superpixels  iter_max
 ```
@@ -37,11 +37,11 @@ iter_max: the max number of interation, which should be integer. 5-20 recommende
 
 Example: 
 ```
-$qd-CSS_rgbd.exe images depth output 300 10
+qd-CSS_rgbd.exe images depth output 300 10
 ```
 
 ### Supervoxels for RGB videos
-You can see the function ```superVoxel_submit```, The command is as follows：
+You can see the function ```superVoxel_submit```, The command is as follows (rename the executable file as ```qd-CSS_sv.exe```):
 ```
 qd-CSS_sv.exe  input_folder  output_folder  number_of_supervoxels  iter_max
 ```
@@ -52,7 +52,7 @@ iter_max: the max number of interation, which should be integer. 5-20 recommende
 
 Example: 
 ```
-$qd-CSS_sv.exe sv_input sv_output 500 10
+qd-CSS_sv.exe sv_input sv_output 500 10
 ```
 
 ## Additional notes
