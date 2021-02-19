@@ -1,11 +1,15 @@
 # Fast Computation of Content-Sensitive Superpixels and Supervoxels Using Q-Distances
-This repository contains the source code for the paper [Fast Computation of Content-Sensitive Superpixels and Supervoxels Using Q-Distances](https://openaccess.thecvf.com/content_ICCV_2019/html/Ye_Fast_Computation_of_Content-Sensitive_Superpixels_and_Supervoxels_Using_Q-Distances_ICCV_2019_paper.html) by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm)
+This repository contains the source code for the paper [Fast Computation of Content-Sensitive Superpixels and Supervoxels Using Q-Distances](https://openaccess.thecvf.com/content_ICCV_2019/html/Ye_Fast_Computation_of_Content-Sensitive_Superpixels_and_Supervoxels_Using_Q-Distances_ICCV_2019_paper.html) by [Yong-Jin Liu](https://cg.cs.tsinghua.edu.cn/people/~Yongjin/Yongjin.htm).
 
 
-## Environment
-The developing environment we used is Microsoft Visual C++ 2012, and we have tested our executable files on 64-bit MS Win7, Win 8 and Win 10. 
+## Running Environment
+The developing environment we used is Microsoft Visual C++ 2012, and we have tested our executable files on 64-bit MS Win7, Win 8 and Win 10. We recommend users to compile the process in x64 and Release version.
 
-#### Additional notes
+
+## subprogram
+We define many functions for different tasks in MainProcess.h, and the corresponding input parameters are defined in main.cpp. 
+
+## Additional notes
 
 Citation:
 
